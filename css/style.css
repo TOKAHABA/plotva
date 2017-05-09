@@ -1,0 +1,87 @@
+/*stuff start*/
+.m-r--15{
+	margin-right: -15px;
+}
+/*stuff end*/
+
+/*Подвал к низу начало*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.page-wrapper {
+    min-height: 100%;
+    margin-bottom: -90px;
+}
+* html .page-wrapper {
+    height: 100%;
+}
+.page-buffer {
+    height: 90px;
+}
+/*Подвал к низу конец*/
+
+/*slider start*/
+.carousel__sliders-box{
+	height: 300px;
+}
+/*slider end*/
+
+/*sections-list start*/
+.sections-list{
+	list-style: none;
+}
+.sections-list__img{
+	width: 100%;
+}
+.sections-list__header{
+	font-size: 20px;
+}
+.sections-list__link:hover{
+	text-decoration: none;
+}
+/*sections-list end*/
+
+/*news-list start*/
+.news-list__box{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.news-list__head{
+	font-size: 20px;
+}
+/*news-list end*/
+
+/*footer start*/
+.footer{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #f8f8f8;
+}
+.footer-header{
+	display: block;
+    height: 50px;
+    padding: 0px 15px 15px 0px;
+    font-size: 18px;
+    line-height: 20px;
+    color: #777;
+}
+.footer-header:hover{
+	text-decoration: none;
+    color: #5e5e5e;
+}
+.footer-sections__list,
+.footer-social__list{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.fa-vk{
+	width: 12px;
+}
+.footer-social__text{
+	margin-left: 5px;
+}
+/*footer end*/
